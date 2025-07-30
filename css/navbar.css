@@ -1,0 +1,70 @@
+/* navbar */
+
+.site-logo {
+    width: 150px;
+}
+
+nav {
+    padding: 2rem;
+}
+
+.nav-links {
+    list-style-type: none;
+    gap: 1rem;
+}
+
+.nav-link a {
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+}
+
+
+@media screen and (min-width: 375px) {
+    .nav-link {
+        font-size: 1.2rem;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .nav-links {
+        gap: 1rem;
+    }
+    .nav-link {
+        font-size: 1.4rem;
+    }
+
+}
+
+
+@media screen and (min-width: 1024px) {
+    nav {
+        padding: 2rem 4rem;
+    }
+    .nav-links {
+        gap: 1rem;
+    }
+    .nav-link {
+        font-size: 1.4rem;
+    } 
+    .site-logo {
+        width: 200px;
+    }
+
+}
+
+
+@media screen and (min-width: 2000px) {
+
+    .site-logo {
+        width: 400px;
+    }
+
+    .nav-link {
+        font-size: 3rem;
+    }
+
+}
