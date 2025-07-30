@@ -60,15 +60,17 @@ body {
     line-height: 1.2;
 }
 
-.about-desc:first-child {
-    margin-bottom: 2rem;
-}
+
 
 .about-desc {
     margin-top: 1rem;
     max-width: 1000px;
     width: 95%;
     margin: auto;
+}
+
+.two {
+    margin-top: 2rem;
 }
 
 .desc-heading {
